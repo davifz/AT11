@@ -15,3 +15,8 @@ strong {
     font-size: 20px;
 }
 
+.detalhe{
+    font-size: 30px;
+    color: hwb(348 11% 22%);
+    line-height: 2;
+}
