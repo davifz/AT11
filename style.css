@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #fff;
@@ -23,8 +29,8 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: auto;
-  width: auto;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .destaque h1 {
@@ -56,8 +62,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  max-width: auto;
-  width: auto;
+  max-width: 1200px;
+  width: 100%;
   gap: 2rem;
 }
 
@@ -90,6 +96,7 @@ body {
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
+  transition: background 0.3s ease;
 }
 
 .botao:hover {
