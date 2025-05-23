@@ -14,7 +14,6 @@ body {
   color: #00c0ff;
 }
 
-/* TOPO */
 .principal {
   background: linear-gradient(to bottom, #001f3f, #003366);
   min-height: 100vh;
@@ -48,7 +47,6 @@ body {
   height: auto;
 }
 
-/* SECUNDÁRIA */
 .secundaria {
   background-color: #000;
   min-height: 100vh;
