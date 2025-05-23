@@ -1,105 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    height: 100vh;
-    width: 100%;
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #ffffff;
 }
 
 .principal {
-    background: linear-gradient(to bottom, #001f3f, #003366);
-    color: white;
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+background: linear-gradient(to bottom, #001f3f, #003366);
+color: white;
+padding: 2rem;
 }
 
 .topo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
-.destaque h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+.conteudo h1 {
+font-size: 2rem;
+margin-bottom: 0.5rem;
 }
 
-.destaque h2 {
-    font-size: 1.5rem;
-    font-weight: normal;
+.conteudo h2 {
+font-size: 1.5rem;
+font-weight: normal;
 }
 
 .logo img {
-    width: 100px;
-    height: auto;
+width: 80px;
+height: 80px;
 }
 
 .secundaria {
-    background-color: #000;
-    color: white;
-    padding: 3rem 2rem;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+background-color: #000;
+color: white;
+padding: 3rem 2rem;
 }
 
 .sobre {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 1200px;
-    width: 100%;
-    text-align: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
 }
 
 .texto-sobre {
-    max-width: 500px;
+max-width: 500px;
 }
 
 .texto-sobre h3 {
-    font-size: 1.5rem;
+font-size: 1.5rem;
 }
 
 .destaque {
-    color: #00c0ff;
-    font-weight: bold;
+color: #00c0ff;
+font-weight: bold;
 }
 
 .texto-sobre p {
-    margin-top: 1rem;
-    line-height: 1.5;
+margin-top: 1rem;
+line-height: 1.5;
 }
 
 .botoes {
-    margin-top: 1.5rem;
+margin-top: 1.5rem;
 }
 
 .botao {
-    display: inline-block;
-    padding: 0.6rem 1.2rem;
-    margin: 0.5rem;
-    background-color: #00c0ff;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.github {
-    background-color: #0070f3;
-    color: white;
+display: inline-block;
+padding: 0.6rem 1.2rem;
+margin-right: 1rem;
+background-color: #00c0ff;
+color: black;
+text-decoration: none;
+border-radius: 5px;
+font-weight: bold;
 }
 
 .imagem-sobre img {
-    max-width: 250px;
-    border: 2px solid #00c0ff;
-    border-radius: 10px;
+max-width: 250px;
+border: 2px solid #00c0ff;
+border-radius: 10px;
 }
